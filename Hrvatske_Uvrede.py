@@ -19,6 +19,6 @@ pick1 = random.randint(0,num1len-1)
 pick2 = random.randint(0,num2len-1)
 pick3 = random.randint(0,num3len-1)
 
-insult = collumn1[pick1] + " " + collumn2[pick2] + collumn3[pick3]
+insult = collumn1[pick1] + " " + collumn2[pick2] + " " + collumn3[pick3]
 pc.copy(insult)
 print(insult, "kopirano u clipboard.")
